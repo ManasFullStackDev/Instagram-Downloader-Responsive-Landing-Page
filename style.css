@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.container {
+  height: 100%;
+  width: 100%;
+}
+
+.top {
+  width: 100%;
+  height: 30%;
+  background: linear-gradient(115deg, #f9ce34, #ee2a7b, #6228d7);
+  padding: 20px;
+}
+
+.top nav {
+  display: flex;
+  margin-top: 20px 10px;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+}
+
+nav .menu-container {
+  display: flex;
+}
+
+nav .menu {
+  display: none;
+}
+
+nav .menu p {
+  margin-right: 40px;
+}
+
+.top nav .logo {
+  display: flex;
+  margin: 10px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav i {
+  margin-right: 10px;
+}
+
+.logo i {
+  color: white;
+  font-size: 25px;
+  margin-right: 10px;
+}
+
+main {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+}
+
+main h1 {
+  margin: 20px 0px;
+  text-align: center;
+  font-size: 30px;
+}
+
+main p {
+  margin: 20px 30px;
+  text-align: center;
+  width: 100%;
+}
+
+.main-content {
+  height: 70%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+  margin-top: 30px;
+}
+
+.main-content .box {
+  width: 100%;
+  height: 30%;
+  margin-bottom: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.main-content i {
+  font-size: 80px;
+  color: #f9ce34;
+  margin-bottom: 30px;
+}
+
+.main-content p {
+  font-size: 20px;
+}
+
+@media (min-width: 770px) {
+  nav .menu {
+    display: flex;
+  }
+  .main-content {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding: 100px;
+  }
+
+  .main-content .box {
+    margin: 0px;
+    text-align: center;
+  }
+}
