@@ -1,7 +1,7 @@
 # Instagram Story Viewer and Downloader
 
 ## About
-This project is a dynamic landing page for an Instagram Story Viewer and Downloader. It offers a user-friendly interface for viewing and downloading Instagram stories anonymously, without the need to log in.
+This project is a simple static responsive landing page for an Instagram Story Viewer and Downloader.
 
 ## Features
 - **Account-Free Access:** No Instagram account required for story viewing.
